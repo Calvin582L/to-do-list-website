@@ -20,6 +20,6 @@ document.getElementById("RemoveButton").onclick = function(){
   u1.removeChild(removed_item);
   }
   catch(err) {
-  console.log("Error, can't removed this. ");
+  console.log("Error, can't remove this. ");
   }
 }
